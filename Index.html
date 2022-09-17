@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Challenge 1 - Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img class="logoImg" src="im/logo.png">
+        <h1 class="tittle">Encriptador de mensaje</h1>
+      </div>
+      <div class="left">
+          <input class="text-input" type="text" name="inputtexto" id="inputtexto" placeholder="Ingrese el texto aqui">
+      </div>
+      <div class="right">
+        <img src="im/Muñeco.png" id="imDer">
+        <h1 id="texto">Ningun mensaje fue encontrado</h1>
+        <textarea id="texto2" >Ingresa el texto que desees encriptar o desenciptar.</textarea>
+        <button type="button" id="copiar-copiar" onclick="copiar()">¡Copiar!</button>
+      </div>
+      <div class="left-button">
+        <p>Solo letra minusculas y sin acentos</p>
+        <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()">desencriptar</button>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <h2>desarrollado por Valeria Acosta</h2>
+  </footer>
+</html>
